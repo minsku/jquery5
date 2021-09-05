@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animate</title>
+    <style>
+        html,
+        body,
+        main {
+            height: 100%;
+            margin: 0;
+        }
+
+        nav {
+            position: fixed;
+            opacity: 0;
+            left: -200px;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0;
+        }
+
+        main {
+            display: flex;
+            width: 200%;
+        }
+
+        #fpage {
+            width: 100%;
+            background-color: #CCC;
+            height: 100%;
+        }
+
+        #spage {
+            width: 100%;
+            background-color: #CC0;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<div></div>
+<nav>
+    <ul>
+        <li>
+            <a href="#fpage">First page</a>
+        </li>
+        <li>
+            <a href="#spage">Second page</a>
+        </li>
+    </ul>
+</nav>
+<main>
+    <section id="fpage">
+        <h1>First page</h1>
+    </section>
+    <section id="spage">
+        <h1>Second page</h1>
+    </section>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="jquery5.js"></script>
+
+</body>
+
+</html>
